@@ -1,1 +1,37 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: green;
+}
+.card {
+  background: white;
+  width: 220px;
+  height: 350px;
+  padding: 20px;
+  margin: auto;
+  border-radius: 10px;
+  position: relative;
+}
+.arriba {
+  position: absolute;
+  top: 5px;
+  left: 15px;
+  font-size: 80px;
+}
+.abajo {
+  position: absolute;
+  bottom: 5px;
+  right: 15px;
+  font-size: 80px;
+}
+.numero {
+  font-size: 75px;
+  position: relative;
+  top: 120px;
+  left: 85px;
+}
+#btn {
+  position: absolute;
+  bottom: -80px;
+  right: 80px;
+  font-size: 20px;
+  background-color: darkgoldenrod;
+}
